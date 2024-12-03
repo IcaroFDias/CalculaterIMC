@@ -22,10 +22,12 @@ class MainActivity : AppCompatActivity() {
         var btnCalcular = findViewById<Button>(R.id.btn_calcular)
 
         btnCalcular.setOnClickListener{
-        var peso = edtPeso.text
-        var altura = edtAltura.text
+        var peso = edtPeso.text.toString().toFloat()
+        var altura = edtAltura.text.toString().toFloat()
+        var alturaQ2 = altura * altura
+        var result = peso/alturaQ2
 
-        println("Icaro pesa " + peso + " e mede " + altura)
+        println("Icaro pesa " + peso + " e mede " + altura + ", seu IMC é: " + result)
         }
 
 

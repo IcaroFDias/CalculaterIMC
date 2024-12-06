@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity()
             var result = peso/alturaQ2
 
             var intent = Intent(this, ResultActivity::class.java)
-            intent.putExtra (name:"123", result)
+            intent.putExtra(KEY_RESULT_IMC, result)
             startActivity(intent)
 
 

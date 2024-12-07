@@ -1,19 +1,32 @@
 # Calculadora IMC
-Desc
+Projeto desenvolvido em Kotiln, com android nativo com o objetivo de mostrar o IMC numa tela de resultado.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 Screenshots
 
+<img src="https://github.com/user-attachments/assets/43dbc50f-8c81-4508-b565-21a92f24bf38" width=200/>
+
+<img src="https://github.com/user-attachments/assets/d1ed38f3-ba9b-4e79-ae7d-fa7bb38e1910" width=200/>
+
+
 ## Tecnologias
-Techs
-
-
+- Activity
+- Intent
+- Snackbar
+- ViewGroups
+  - LinearLayout
+  - ConstraintLayout
+- Views
+  - ImageView
+  - TextView
+  - EditText
+  - Button
 ## License
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Roque Buarque Junior
+Copyright (c) 2024 Icaro Dias
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
